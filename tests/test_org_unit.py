@@ -3,7 +3,7 @@ from lib.base_case import BaseCase
 from lib.assertions import Assertions
 
 
-class TestRegister(BaseCase):
+class TestOrgUnit(BaseCase):
 
     def setup(self):
         self.base_url = 'https://demo.u-system.tech/api/v1/org-units'
